@@ -102,7 +102,7 @@ export class ChistesPage implements OnInit {
         {
           text: 'Guardar',
           handler: (data) => {
-            if (data.Chiste && data.Tipo && data.Explicacion && data.calificacion) {
+            if (data.Chiste && data.Tipo && data.Explicacion) {
               const updatedTask: Partial<Task> = {
                 Chiste: data.Chiste,
                 Tipo: data.Tipo,
